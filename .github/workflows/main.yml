@@ -1,0 +1,6 @@
+mkdir mcl
+cd mcl
+wget https://github.com/MrXiaoM/mirai-console-loader/releases/download/v2.1.2-patch1/with-overflow.zip
+unzip with-overflow.zip
+chmod +x mcl
+./mcl -u --dry-run
